@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style0831.css">
+</head>
+<body>
+    <img src="http://www.chemicalnews.co.kr/news/photo/202106/3636_10174_4958.jpg&quot; alt="cat">
+    <h1>귀여운 고양이</h1>
+
+    <div>
+        <h2 class="품종">고양이 품종</h2>
+        <ul>
+            <li class="cat"><a href="https://namu.wiki/w/%ED%8E%98%EB%A5%B4%EC%8B%9C%EC%95%88"&gt;페르시안</a></li>
+            <li><a href="https://namu.wiki/w/%EB%8F%84%EB%A9%94%EC%8A%A4%ED%8B%B1%20%EC%88%8F%ED%97%A4%EC%96%B4"&gt;코리안숏헤어</a></li>
+            <li><a href="https://namu.wiki/w/%EC%8A%A4%ED%95%91%ED%81%AC%EC%8A%A4"&gt;스핑크스</a></li>
+            <li><a href="https://namu.wiki/w/%EB%9F%AC%EC%8B%9C%EC%95%88%20%EB%B8%94%EB%A3%A8"&gt;러시안블루</a></li>
+            <li><a href="https://namu.wiki/w/%EC%A7%AC%ED%83%80%EC%9D%B4%EA%B1%B0"&gt;짬타이거</a></li>
+        </ul>
+    </div>
+   
+    <div>
+        <h2 class>Lorem Ipsum</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Explicabo, suscipit.
+            Aperiam tenetur inventore veniam soluta
+            eum ea, non quasi quos veritatis facere
+            rerum alias reprehenderit, et iusto,
+            blanditiis consectetur iure.
+        </p>        
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+*{
+    font-family: "함초롬바탕";
+}
+
+.품종{
+    color: blue;
+}
+
+[class="품종"] {
+    color: red;
+}
+
+
+a{
+    display: block;
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+a:link{
+    font-size: 2rem;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+}
+
+.cat:first-child{
+    font-size: 5em;
+}
