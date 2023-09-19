@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style0914.css">
+</head>
+
+<body>
+    <span>오늘은 목요일~</span>
+    <!-- .box1>.a+.b+.c -->
+    <div class="box1">
+        <div class="a">aa</div>
+        <div class="b">bb</div>
+        <div class="c">cc</div>
+    </div>
+
+    <ul>
+        <li>떠들지!</li>
+        <li>마세요~</li>
+        <li>아셨죠?</li>
+    </ul>
+
+</body>
+
+</html>
