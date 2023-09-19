@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style0919.css">
+</head>
+
+<body>
+    <!-- .pos>.a+.b+.c -->
+    <div class="position">
+        <div class="a">pa</div>
+        <div class="b">pb</div>
+        <div class="c">pc</div>
+    </div>
+
+    <div class="float">
+        <div class="a">fa</div>
+        <div class="b">fb</div>
+        <div class="c">fc</div>
+    </div>
+
+    <div class="display">
+        <div class="a">da</div>
+        <div class="b">db</div>
+        <div class="c">dc</div>
+    </div>
+    <p>
+        사
+        랑
+        해
+        요
+        여
+        러
+        분
+    </p>
+
+</body>
+
+</html>
